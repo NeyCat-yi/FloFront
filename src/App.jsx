@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import FlowChart from './components/FlowChart';
 import RealtimeMonitor from './components/RealtimeMonitor';
 import ParamTable from './components/ParamTable';
-import AlarmPanel from './components/AlarmPanel';
+import CameraFeed from './components/CameraFeed';
 import ChartPanel from './components/ChartPanel';
 import './App.css';
 
@@ -30,14 +30,14 @@ export default function App() {
           <div className="cell-flow">
             <FlowChart />
           </div>
-          <div className="cell-monitor">
-            <RealtimeMonitor />
+          <div className="cell-camera">
+            <CameraFeed />
           </div>
           <div className="cell-param">
             <ParamTable />
           </div>
-          <div className="cell-alarm">
-            <AlarmPanel />
+          <div className="cell-monitor">
+            <RealtimeMonitor />
           </div>
           <div className="cell-chart">
             <ChartPanel />
