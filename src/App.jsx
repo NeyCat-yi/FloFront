@@ -2,7 +2,7 @@ import { ConfigProvider, theme } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import FlowChart from './components/FlowChart';
+import FlowChart3D from './components/FlowChart3D';
 import ProcessInfo from './components/ProcessInfo';
 import ParamTable from './components/ParamTable';
 import CameraFeed from './components/CameraFeed';
@@ -16,7 +16,7 @@ function Dashboard() {
     <div className="main-grid">
       <div className="cell-flow">
         <div className="panel">
-          <FlowChart />
+          <FlowChart3D />
         </div>
       </div>
       <div className="cell-camera">
